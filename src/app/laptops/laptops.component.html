@@ -1,0 +1,10 @@
+<div *ngFor = "let i of laptopList" class="row elements">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src={{i.image_url}} alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{i.title}}</h5>
+      <p class="card-text">{{i.price}} $</p>
+      <a href="#" class="btn btn-primary">Add to card</a>
+    </div>
+  </div>
+</div>
